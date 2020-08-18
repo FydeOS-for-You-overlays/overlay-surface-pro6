@@ -1,0 +1,215 @@
+00:00.0 Host bridge: Intel Corporation Device 5914 (rev 08)
+	Subsystem: Intel Corporation Device 2015
+	Flags: bus master, fast devsel, latency 0
+	Capabilities: [e0] Vendor Specific Information: Len=10 <?>
+	Kernel driver in use: skl_uncore
+
+00:02.0 VGA compatible controller: Intel Corporation Device 5917 (rev 07) (prog-if 00 [VGA controller])
+	Subsystem: Microsoft Corporation Device 0026
+	Flags: bus master, fast devsel, latency 0, IRQ 134
+	Memory at a0000000 (64-bit, non-prefetchable) [size=16M]
+	Memory at 90000000 (64-bit, prefetchable) [size=256M]
+	I/O ports at 3000 [size=64]
+	[virtual] Expansion ROM at 000c0000 [disabled] [size=128K]
+	Capabilities: [40] Vendor Specific Information: Len=0c <?>
+	Capabilities: [70] Express Root Complex Integrated Endpoint, MSI 00
+	Capabilities: [ac] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [d0] Power Management version 2
+	Capabilities: [100] Process Address Space ID (PASID)
+	Capabilities: [200] Address Translation Service (ATS)
+	Capabilities: [300] Page Request Interface (PRI)
+	Kernel driver in use: i915
+	Kernel modules: i915
+
+00:04.0 Signal processing controller: Intel Corporation Device 1903 (rev 08)
+	Subsystem: Intel Corporation Device 2015
+	Flags: fast devsel, IRQ 16
+	Memory at a1730000 (64-bit, non-prefetchable) [size=32K]
+	Capabilities: [90] MSI: Enable- Count=1/1 Maskable- 64bit-
+	Capabilities: [d0] Power Management version 3
+	Capabilities: [e0] Vendor Specific Information: Len=0c <?>
+	Kernel driver in use: proc_thermal
+	Kernel modules: processor_thermal_device
+
+00:05.0 Multimedia controller: Intel Corporation Sky Lake Imaging Unit (rev 01)
+	Subsystem: Intel Corporation Device 2015
+	Flags: fast devsel, IRQ 135
+	Memory at a1000000 (64-bit, non-prefetchable) [disabled] [size=4M]
+	Capabilities: [90] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [a0] PCI Advanced Features
+	Capabilities: [d0] Power Management version 3
+	Kernel driver in use: ipu3-imgu
+	Kernel modules: ipu3_imgu
+
+00:13.0 Non-VGA unclassified device: Intel Corporation Device 9d35 (rev 21)
+	Subsystem: Intel Corporation Device 7270
+	Flags: fast devsel, IRQ 255
+	Memory at a1740000 (64-bit, non-prefetchable) [disabled] [size=4K]
+	Capabilities: [80] Power Management version 3
+
+00:14.0 USB controller: Intel Corporation Device 9d2f (rev 21) (prog-if 30 [XHCI])
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, medium devsel, latency 0, IRQ 125
+	Memory at a1700000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: [70] Power Management version 2
+	Capabilities: [80] MSI: Enable+ Count=1/8 Maskable- 64bit+
+	Kernel driver in use: xhci_hcd
+
+00:14.2 Signal processing controller: Intel Corporation Device 9d31 (rev 21)
+	Subsystem: Intel Corporation Device 7270
+	Flags: fast devsel, IRQ 255
+	Memory at a1741000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+
+00:14.3 Multimedia controller: Intel Corporation Device 9d32 (rev 01)
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, fast devsel, latency 64, IRQ 136
+	Memory at a1710000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: [90] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [d0] Power Management version 3
+	Kernel driver in use: ipu3-cio2
+	Kernel modules: ipu3_cio2
+
+00:15.0 Signal processing controller: Intel Corporation Device 9d60 (rev 21)
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Memory at a1742000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: intel-lpss
+	Kernel modules: intel_lpss_pci
+
+00:15.1 Signal processing controller: Intel Corporation Device 9d61 (rev 21)
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, fast devsel, latency 0, IRQ 17
+	Memory at a1743000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: intel-lpss
+	Kernel modules: intel_lpss_pci
+
+00:15.2 Signal processing controller: Intel Corporation Device 9d62 (rev 21)
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, fast devsel, latency 0, IRQ 18
+	Memory at a1744000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: intel-lpss
+	Kernel modules: intel_lpss_pci
+
+00:15.3 Signal processing controller: Intel Corporation Device 9d63 (rev 21)
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, fast devsel, latency 0, IRQ 19
+	Memory at a1745000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: intel-lpss
+	Kernel modules: intel_lpss_pci
+
+00:16.0 Communication controller: Intel Corporation Device 9d3a (rev 21)
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, fast devsel, latency 0, IRQ 255
+	Memory at a1746000 (64-bit, non-prefetchable) [disabled] [size=4K]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [8c] MSI: Enable- Count=1/1 Maskable- 64bit+
+
+00:16.4 Communication controller: Intel Corporation Device 9d3e (rev 21)
+	Flags: bus master, fast devsel, latency 0, IRQ 255
+	Memory at a1747000 (64-bit, non-prefetchable) [disabled] [size=4K]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [8c] MSI: Enable- Count=1/1 Maskable- 64bit+
+
+00:1c.0 PCI bridge: Intel Corporation Device 9d13 (rev f1) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 122
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: None
+	Memory behind bridge: None
+	Prefetchable memory behind bridge: 00000000a1400000-00000000a15fffff [size=2M]
+	Capabilities: [40] Express Root Port (Slot+), MSI 00
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [90] Subsystem: Intel Corporation Device 7270
+	Capabilities: [a0] Power Management version 3
+	Capabilities: [100] #00
+	Capabilities: [140] Access Control Services
+	Capabilities: [200] L1 PM Substates
+	Capabilities: [220] #19
+	Kernel driver in use: pcieport
+
+00:1d.0 PCI bridge: Intel Corporation Device 9d18 (rev f1) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 123
+	Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
+	I/O behind bridge: None
+	Memory behind bridge: a1600000-a16fffff [size=1M]
+	Prefetchable memory behind bridge: None
+	Capabilities: [40] Express Root Port (Slot+), MSI 00
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [90] Subsystem: Intel Corporation Device 7270
+	Capabilities: [a0] Power Management version 3
+	Capabilities: [100] #00
+	Capabilities: [140] Access Control Services
+	Capabilities: [200] L1 PM Substates
+	Capabilities: [220] #19
+	Kernel driver in use: pcieport
+
+00:1e.0 Signal processing controller: Intel Corporation Device 9d27 (rev 21)
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, fast devsel, latency 0, IRQ 20
+	Memory at a1748000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: intel-lpss
+	Kernel modules: intel_lpss_pci
+
+00:1f.0 ISA bridge: Intel Corporation Device 9d4e (rev 21)
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, medium devsel, latency 0
+
+00:1f.2 Memory controller: Intel Corporation Device 9d21 (rev 21)
+	Subsystem: Intel Corporation Device 7270
+	Flags: fast devsel
+	Memory at a173c000 (32-bit, non-prefetchable) [disabled] [size=16K]
+
+00:1f.3 Audio device: Intel Corporation Device 9d71 (rev 21) (prog-if 80)
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, fast devsel, latency 64, IRQ 137
+	Memory at a1738000 (64-bit, non-prefetchable) [size=16K]
+	Memory at a1720000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [60] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel, snd_soc_skl
+
+01:00.0 Ethernet controller: Marvell Technology Group Ltd. 88W8897 [AVASTAR] 802.11ac Wireless
+	Subsystem: Device 0008:045e
+	Flags: bus master, fast devsel, latency 0, IRQ 138
+	Memory at a1500000 (64-bit, prefetchable) [size=1M]
+	Memory at a1400000 (64-bit, prefetchable) [size=1M]
+	Capabilities: [40] Power Management version 3
+	Capabilities: [50] MSI: Enable+ Count=1/32 Maskable+ 64bit+
+	Capabilities: [70] Express Endpoint, MSI 00
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [140] Device Serial Number 00-00-00-00-00-00-00-00
+	Capabilities: [150] Power Budgeting <?>
+	Capabilities: [160] Latency Tolerance Reporting
+	Capabilities: [168] L1 PM Substates
+	Kernel driver in use: mwifiex_pcie
+	Kernel modules: mwifiex_pcie
+
+02:00.0 Non-Volatile memory controller: Device 1c5c:1327 (prog-if 02 [NVM Express])
+	Subsystem: Device 1c5c:0000
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Memory at a1600000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] MSI: Enable- Count=1/32 Maskable+ 64bit+
+	Capabilities: [b0] MSI-X: Enable+ Count=32 Masked-
+	Capabilities: [c0] Express Endpoint, MSI 00
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [150] Device Serial Number 0b-12-1e-54-ac-e4-2e-84
+	Capabilities: [160] Power Budgeting <?>
+	Capabilities: [1b8] Latency Tolerance Reporting
+	Capabilities: [300] #19
+	Capabilities: [400] Vendor Specific Information: ID=0001 Rev=1 Len=010 <?>
+	Capabilities: [900] L1 PM Substates
+	Kernel driver in use: nvme
+

@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="usb", ATTR{product}=="Surface Type Cover", RUN+="reload_i2c.sh"
